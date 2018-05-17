@@ -1,0 +1,14 @@
+doctype html
+html
+    head
+        title 
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    body
+        div#title
+        div#paragraph
+
+        script
+          | title.render('#title', 'This title is dynamic');
+          | paragraph.render('#paragraph');
+

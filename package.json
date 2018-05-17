@@ -1,0 +1,35 @@
+{
+  "name": "react-widgets",
+  "version": "1.0.0",
+  "author": {
+    "name": "Gabriel Mayta",
+    "email": "grandemayta@gmail.com",
+    "url": "https://github.com/grandemayta"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=dev webpack-dev-server --config webpack.dev.js",
+    "prod": "cross-env NODE_ENV=prod webpack --config webpack.prod.js"
+  },
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "cross-env": "^5.1.4",
+    "html-webpack-plugin": "^3.0.6",
+    "path": "^0.12.7",
+    "pug": "^2.0.1",
+    "pug-loader": "^2.3.0",
+    "uglifyjs-webpack-plugin": "^1.2.3",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1",
+    "webpack-merge": "^4.1.1"
+  },
+  "license": "MIT"
+}
